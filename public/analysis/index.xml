@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analysis on The Woman&#39;s Journal Digital Archive</title>
+    <link>http://localhost:1313/analysis/</link>
+    <description>Recent content in Analysis on The Woman&#39;s Journal Digital Archive</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Themes in the First Year: The Woman&#39;s Journal, 1870</title>
+      <link>http://localhost:1313/analysis/first-year-themes/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/analysis/first-year-themes/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;</description>
+    </item>
+  </channel>
+</rss>

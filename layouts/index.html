@@ -1,0 +1,78 @@
+{{ define "main" }}
+
+<section class="hero">
+  <div class="hero-inner">
+    <h1>The Woman's Journal Digital Archive</h1>
+    <p class="hero-subtitle">A weekly newspaper devoted to the interests of Women</p>
+    <p class="hero-meta">Boston, Massachusetts &middot; Founded January 8, 1870</p>
+  </div>
+</section>
+
+<section class="intro container">
+  <div class="intro-text">
+    {{ .Content }}
+  </div>
+
+  <div class="stats-bar">
+    {{ $issues := where .Site.RegularPages "Section" "issues" }}
+    <div class="stat">
+      <span class="stat-number">{{ len $issues }}</span>
+      <span class="stat-label">Issues in Collection</span>
+    </div>
+    <div class="stat">
+      <span class="stat-number">1870</span>
+      <span class="stat-label">Year of Publication</span>
+    </div>
+    <div class="stat">
+      <span class="stat-number">Vol. 1</span>
+      <span class="stat-label">Volume Represented</span>
+    </div>
+    <div class="stat">
+      <span class="stat-number">2</span>
+      <span class="stat-label">Founding Editors</span>
+    </div>
+  </div>
+</section>
+
+<section class="featured container">
+  <h2>Browse the Collection</h2>
+  <p>Explore digitized issues from Volume 1 of <em>The Woman's Journal</em>, each with full bibliographic metadata and links to the Internet Archive.</p>
+
+  {{ $issues := where .Site.RegularPages "Section" "issues" }}
+  {{ $issues = sort $issues "Date" "asc" }}
+  <div class="issue-grid">
+    {{ range $issues }}
+    <div class="issue-card">
+      <div class="issue-card-header">
+        <span class="issue-vol-num">Vol. {{ .Params.volume }}, No. {{ .Params.issue }}</span>
+        <time class="issue-date" datetime="{{ .Date.Format "2006-01-02" }}">
+          {{ .Date.Format "January 2, 2006" }}
+        </time>
+      </div>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <div class="topic-tags">
+        {{ range .Params.topics }}
+        <span class="tag">{{ . }}</span>
+        {{ end }}
+      </div>
+      <a href="{{ .RelPermalink }}" class="read-more">View Issue &rarr;</a>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="browse-cta">
+    <a href="/issues/" class="btn btn-primary">Browse All Issues</a>
+  </div>
+</section>
+
+<section class="about-snippet container">
+  <h2>About This Project</h2>
+  <p>
+    This site demonstrates how digital historians use structured metadata—encoded as Hugo front matter—to build
+    browsable, searchable archives from historical primary sources. Each issue record in this collection links
+    directly to the full digitized text at the Internet Archive.
+  </p>
+  <a href="/about/" class="btn btn-secondary">Learn More</a>
+</section>
+
+{{ end }}

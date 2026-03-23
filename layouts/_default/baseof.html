@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="site-title">
+        <a href="/">{{ .Site.Title }}</a>
+      </div>
+      <nav class="site-nav">
+        <ul>
+          {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL }}" {{ if eq $.RelPermalink .URL }}class="active"{{ end }}>{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>
+        <em>The Woman's Journal</em> Digital Archive &mdash;
+        A teaching demonstration for HIST 8500: Digital Methods I, Clemson University.
+      </p>
+      <p>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>.
+        Primary sources courtesy of the <a href="https://archive.org/" target="_blank" rel="noopener">Internet Archive</a>.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
