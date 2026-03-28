@@ -10,12 +10,16 @@ title = "The Woman's Journal Digital Archive"
   [[menu.main]]
     name = "Issues"
     url = "/issues/"
-    weight = 2
+    weight = 3
   [[menu.main]]
     name = "Analysis"
     url = "/analysis/"
-    weight = 3
+    weight = 5
   [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 4
+  [[menu.main]]
+    name = "People"
+    url = "/people/"
+    weight = 2
