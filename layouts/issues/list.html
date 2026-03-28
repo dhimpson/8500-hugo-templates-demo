@@ -6,59 +6,13 @@
     <h1>{{ .Title }}</h1>
     {{ with .Content }}<div class="page-intro">{{ . }}</div>{{ end }}
 
-    {{ $issues := where .Site.RegularPages "Section" "issues" }}
-    <p class="collection-count">
-      <strong>{{ len $issues }} issues</strong> in this collection &mdash;
-      Volume 1 (January&ndash;December 1870)
+    {{ $people := where .Site.RegularPages "Section" "people" }}
+    <p class="Lucy Stone">
+      <strong>{{ len $people }} people</strong> This is a list of people &mdash;
     </p>
-  </div>
-
-  <div class="timeline">
-    {{ $issues := where .Pages "Kind" "page" }}
-    {{ $issues = sort $issues "Date" "asc" }}
-    {{ range $issues }}
-    <article class="timeline-item">
-
-      <div class="timeline-marker">
-        <time datetime="{{ .Date.Format "2006-01-02" }}">
-          <span class="timeline-month">{{ .Date.Format "Jan" }}</span>
-          <span class="timeline-day">{{ .Date.Format "2" }}</span>
-        </time>
-      </div>
-
-      <div class="timeline-content">
-        <div class="timeline-meta">
-          <span class="vol-issue">Vol. {{ .Params.volume }}, No. {{ .Params.issue }}</span>
-          <span class="pub-date">{{ .Date.Format "January 2, 1870" }}</span>
-          <span class="location">{{ .Params.location }}</span>
-        </div>
-
-        <h2 class="timeline-title">
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </h2>
-
-        <div class="topic-tags">
-          {{ range .Params.topics }}
-          <span class="tag">{{ . }}</span>
-          {{ end }}
-        </div>
-
-        <p class="timeline-excerpt">{{ .Summary }}</p>
-
-        <div class="timeline-actions">
-          <a href="{{ .RelPermalink }}" class="btn btn-secondary btn-sm">View Issue</a>
-          {{ with .Params.archive_url }}
-          <a href="{{ . }}" class="btn btn-archive btn-sm" target="_blank" rel="noopener">
-            Internet Archive &rarr;
-          </a>
-          {{ end }}
-        </div>
-      </div>
-
-    </article>
-    {{ end }}
   </div>
 
 </div>
 
 {{ end }}
+ 
