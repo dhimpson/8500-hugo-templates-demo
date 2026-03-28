@@ -1,9 +1,61 @@
 # Hugo Activity
 
 * 1. In hugo.toml you will find code that creates navigation items. Add one for the people page you created on Monday. Add the code you used below.
-```wrap you code in backticks to have it appear as code when rendered in markdown```
+```baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "The Woman's Journal Digital Archive"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Issues"
+    url = "/issues/"
+    weight = 2
+  [[menu.main]]
+    name = "Analysis"
+    url = "/analysis/"
+    weight = 3
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+  [[menu.main]]
+    name = "People"
+    url = "/people/"
+    weight = 5
+ ```
 
 * 2. Reorder Your Navigation Menu (2 points)In hugo.toml, menu items have a weight parameter that controls their order. Lower numbers appear first. Your task: Rearrange the menu so it displays in this order: Home, People, Issues, About, Analysis
+```baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "The Woman's Journal Digital Archive"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Issues"
+    url = "/issues/"
+    weight = 3
+  [[menu.main]]
+    name = "Analysis"
+    url = "/analysis/"
+    weight = 5
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+  [[menu.main]]
+    name = "People"
+    url = "/people/"
+    weight = 2
+```
+
 
 * 3. On individual issue pages (single.html) add a "Back to all issues" button at the bottom so users can easily navigate back to the list of issues.
 ```<div>
