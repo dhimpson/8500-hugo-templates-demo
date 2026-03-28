@@ -6,14 +6,21 @@
     <description>Recent content on The Woman&#39;s Journal Digital Archive</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lucy Stone</title>
+      <link>http://localhost:1313/issues/people/lucy-stone/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/issues/people/lucy-stone/</guid>
+      <description>&lt;p&gt;Lucy Stone was an American abolitionist and women&amp;rsquo;s rights activist.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h2 id=&#34;about-the-womans-journal&#34;&gt;About &lt;em&gt;The Woman&amp;rsquo;s Journal&lt;/em&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;The Woman&amp;rsquo;s Journal&lt;/em&gt; was a weekly newspaper published in Boston, Massachusetts from January 8, 1870 to 1931. It was founded by Lucy Stone and her husband Henry B. Blackwell as the official organ of the American Woman Suffrage Association (AWSA). The paper covered suffrage campaigns, legislative developments, women in the professions, labor issues, and international women&amp;rsquo;s rights movements.&lt;/p&gt;&#xA;&lt;p&gt;Lucy Stone, one of the foremost orators of the abolitionist and suffrage movements, served as editor alongside her husband for much of the paper&amp;rsquo;s early history. The journal stood apart from other suffrage publications in its moderate, pragmatic approach—working state by state toward women&amp;rsquo;s enfranchisement rather than pursuing a federal constitutional amendment exclusively.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;about-the-woman&#34;&gt;About &lt;em&gt;The Woman&amp;rsquo;s Journal&lt;/em&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;The Woman&amp;rsquo;s Journal&lt;/em&gt; was a weekly newspaper published in Boston, Massachusetts from January 8, 1870 to 1931. It was founded by Lucy Stone and her husband Henry B. Blackwell as the official organ of the American Woman Suffrage Association (AWSA). The paper covered suffrage campaigns, legislative developments, women in the professions, labor issues, and international women&amp;rsquo;s rights movements.&lt;/p&gt;&#xA;&lt;p&gt;Lucy Stone, one of the foremost orators of the abolitionist and suffrage movements, served as editor alongside her husband for much of the paper&amp;rsquo;s early history. The journal stood apart from other suffrage publications in its moderate, pragmatic approach—working state by state toward women&amp;rsquo;s enfranchisement rather than pursuing a federal constitutional amendment exclusively.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Themes in the First Year: The Woman&#39;s Journal, 1870</title>
@@ -56,6 +63,20 @@
       <pubDate>Sat, 08 Jan 1870 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/issues/1870-01-08/</guid>
       <description>&lt;p&gt;This is the inaugural issue of &lt;em&gt;The Woman&amp;rsquo;s Journal&lt;/em&gt;, launched on January 8, 1870 from offices in Boston, Massachusetts. The first issue set out the paper&amp;rsquo;s founding mission: to advocate for women&amp;rsquo;s suffrage and the full equality of women in American civic life. Full issue transcription and page images are available at the Internet Archive via the link above.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/issues/lucy_stone/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/issues/lucy_stone/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/issues/people/henry-b.-blackwell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/issues/people/henry-b.-blackwell/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
