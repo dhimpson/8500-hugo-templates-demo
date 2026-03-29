@@ -10,6 +10,14 @@
     <p class="Lucy Stone">
       <strong>{{ len $people }} people</strong> This is a list of people &mdash;
     </p>
+    <div class="people-list">
+      {{ range $people.ByDate.Reverse }}
+        <div class="person-item">
+          <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          <p class="person-date">{{ .Date.Format "January 2, 2006" }}</p>
+        </div>
+      {{ end }}
+    </div>
   </div>
 
 </div>

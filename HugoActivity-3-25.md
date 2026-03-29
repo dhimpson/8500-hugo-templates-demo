@@ -1,6 +1,7 @@
 # Hugo Activity
 
 * 1. In hugo.toml you will find code that creates navigation items. Add one for the people page you created on Monday. Add the code you used below.
+
 ```baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = "The Woman's Journal Digital Archive"
@@ -88,26 +89,43 @@ title = "The Woman's Journal Digital Archive"
 
 ```
 First, look up .Site.RegularPages in the hugo documentation. Based on reading this documentation, what does ```{{ $issues := where .Site.RegularPages "Section" "issues" }}``` do?
+# The Site.RegularPages returns a collection of regular pages that I have created for the site. These would be posts, articles, or project pages. This code allows you to filter the collection by section. The code will filter only for pages in the issues section.
 
 Now, Edit this page so that the number of people are also dynamically generated. 
-
+## note to self, this should be complete. check visually.
 
 5. Reverse the order of the timeline list on layouts/issues/list.html. Right now it is in ascending order. How would you reverse that? 
-
+## I had to change {{ range $people.ByDate }} by adding reverse {{ range $people.ByDate.Reverse }}  
 6. Create a new piece of metadata on each issue that is called "editornotes:". Then add some content to each one (it can be lorem ipsum or some other fake text if you'd like). On the issue page, (layouts/issues/single.html) display these editor notes on the page. Style and format as you'd like.
+## I am not sure that I am supposed to have a people file in "issues". That might have been an oops from last week's class. I did not add metadata to this file. Added metadata. did the issues page items.
 
 7. What happens if one template doesn't have a field calle "editornotes"? Can you write a piece of code that shows that field only _if_ it appears in the metadata?
+
+##     <!-- Editor notes -->
+    {{ with .Params.editornotes }}
+    <section class="metadata-block editornotes-block">
+      <h2 class="metadata-heading">Editor Notes</h2>
+      <div class="editornotes-body">
+        {{ . }}
+      </div>
+    </section>
+    {{ end }}
+    
+## I learned that by using "with" with the .Params. function, I can create a conditional in the code that will check to see if the editornotes field exists in the front matter and if so, will display the section. If not, it will skip the section.
 
 8. Just like we can call parameters that are stored in the metadata for a piece of content, we can also display pieces of info that are stored in the hugo.toml configuration file. Open hugo.toml and add this line anywhere after the title line:
 ```
 tagline = "Voices of the American Women's Suffrage Movement"
 ```
+## ^done
 Your hugo.toml should now include:
 ```
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = "The Woman's Journal Digital Archive"
 tagline = "Voices of the American Women's Suffrage Movement"
-```
+``` 
+## ^done
+
 On the homepage template (layouts/index.html) find the hero section. Within the hero section add the tagline using this:
 ```{{ .Site.Params.tagline }}```. You will need to wrap it in html. 

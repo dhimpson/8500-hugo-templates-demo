@@ -13,11 +13,16 @@
     {{ .Content }}
   </div>
 
-  <div class="stats-bar">
+    <div class="stats-bar">
     {{ $issues := where .Site.RegularPages "Section" "issues" }}
+    {{ $people := where .Site.RegularPages "Section" "people" }}
     <div class="stat">
       <span class="stat-number">{{ len $issues }}</span>
       <span class="stat-label">Issues in Collection</span>
+    </div>
+    <div class="stat">
+      <span class="stat-number">{{ len $people }}</span>
+      <span class="stat-label">People Featured</span>
     </div>
     <div class="stat">
       <span class="stat-number">1870</span>

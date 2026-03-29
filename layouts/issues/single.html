@@ -95,6 +95,16 @@
       </div>
     </section>
 
+    <!-- Editor notes -->
+    {{ with .Params.editornotes }}
+    <section class="metadata-block editornotes-block">
+      <h2 class="metadata-heading">Editor Notes</h2>
+      <div class="editornotes-body">
+        {{ . }}
+      </div>
+    </section>
+    {{ end }}
+
     <!-- Issue navigation -->
     <nav class="issue-nav">
       {{ with .PrevInSection }}

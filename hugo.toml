@@ -2,6 +2,8 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = "The Woman's Journal Digital Archive"
 
+tagline = "Voices of the American Women's Suffrage Movement"
+
 [menu]
   [[menu.main]]
     name = "Home"
