@@ -66,16 +66,16 @@
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/issues/lucy_stone/</link>
+      <link>http://localhost:1313/people/henry-b.-blackwell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/issues/lucy_stone/</guid>
+      <guid>http://localhost:1313/people/henry-b.-blackwell/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/issues/people/henry-b.-blackwell/</link>
+      <link>http://localhost:1313/people/lucy_stone/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/issues/people/henry-b.-blackwell/</guid>
+      <guid>http://localhost:1313/people/lucy_stone/</guid>
       <description></description>
     </item>
   </channel>
