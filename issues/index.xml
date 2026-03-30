@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Issues on The Woman&#39;s Journal Digital Archive</title>
+    <link>https://example.org/issues/</link>
+    <description>Recent content in Issues on The Woman&#39;s Journal Digital Archive</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/issues/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lucy Stone</title>
+      <link>https://example.org/issues/people/lucy-stone/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.org/issues/people/lucy-stone/</guid>
+      <description>&lt;p&gt;Lucy Stone was an American abolitionist and women&amp;rsquo;s rights activist.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Woman&#39;s Journal - December 3, 1870</title>
+      <link>https://example.org/issues/1870-12-03/</link>
+      <pubDate>Sat, 03 Dec 1870 00:00:00 +0000</pubDate>
+      <guid>https://example.org/issues/1870-12-03/</guid>
+      <description>&lt;p&gt;Volume 1, Issue 48 of &lt;em&gt;The Woman&amp;rsquo;s Journal&lt;/em&gt; offers a retrospective on the paper&amp;rsquo;s first year of publication, surveying the state of the suffrage movement at the close of 1870. The editors reflect on legislative gains and setbacks, celebrate the paper&amp;rsquo;s growing readership, and look ahead to the campaigns of 1871. Full issue transcription and page images are available at the Internet Archive via the link above.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Woman&#39;s Journal - September 10, 1870</title>
+      <link>https://example.org/issues/1870-09-10/</link>
+      <pubDate>Sat, 10 Sep 1870 00:00:00 +0000</pubDate>
+      <guid>https://example.org/issues/1870-09-10/</guid>
+      <description>&lt;p&gt;Volume 1, Issue 36 of &lt;em&gt;The Woman&amp;rsquo;s Journal&lt;/em&gt; grapples with the aftermath of the Fifteenth Amendment&amp;rsquo;s ratification, which granted voting rights to Black men but explicitly excluded women. The issue reflects on the fractured relationships within the broader reform movement and reaffirms the paper&amp;rsquo;s commitment to universal suffrage. Full issue transcription and page images are available at the Internet Archive via the link above.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Woman&#39;s Journal - June 11, 1870</title>
+      <link>https://example.org/issues/1870-06-11/</link>
+      <pubDate>Sat, 11 Jun 1870 00:00:00 +0000</pubDate>
+      <guid>https://example.org/issues/1870-06-11/</guid>
+      <description>&lt;p&gt;Volume 1, Issue 23 of &lt;em&gt;The Woman&amp;rsquo;s Journal&lt;/em&gt; turns attention to women in the workforce, documenting the labor conditions faced by women in industrial trades and domestic service. The issue argues for equal pay and the right of women to organize. Full issue transcription and page images are available at the Internet Archive via the link above.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Woman&#39;s Journal - March 26, 1870</title>
+      <link>https://example.org/issues/1870-03-26/</link>
+      <pubDate>Sat, 26 Mar 1870 00:00:00 +0000</pubDate>
+      <guid>https://example.org/issues/1870-03-26/</guid>
+      <description>&lt;p&gt;Volume 1, Issue 12 of &lt;em&gt;The Woman&amp;rsquo;s Journal&lt;/em&gt; covers ongoing suffrage campaigns and features reporting on the state of women&amp;rsquo;s education and access to higher learning. Articles in this issue address legislative efforts in several states and the connection between educational reform and women&amp;rsquo;s full citizenship. Full issue transcription and page images are available at the Internet Archive via the link above.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Woman&#39;s Journal - January 8, 1870</title>
+      <link>https://example.org/issues/1870-01-08/</link>
+      <pubDate>Sat, 08 Jan 1870 00:00:00 +0000</pubDate>
+      <guid>https://example.org/issues/1870-01-08/</guid>
+      <description>&lt;p&gt;This is the inaugural issue of &lt;em&gt;The Woman&amp;rsquo;s Journal&lt;/em&gt;, launched on January 8, 1870 from offices in Boston, Massachusetts. The first issue set out the paper&amp;rsquo;s founding mission: to advocate for women&amp;rsquo;s suffrage and the full equality of women in American civic life. Full issue transcription and page images are available at the Internet Archive via the link above.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
