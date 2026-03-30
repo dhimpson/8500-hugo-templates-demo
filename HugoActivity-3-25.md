@@ -129,4 +129,3 @@ tagline = "Voices of the American Women's Suffrage Movement"
 
 On the homepage template (layouts/index.html) find the hero section. Within the hero section add the tagline using this:
 ```{{ .Site.Params.tagline }}```. You will need to wrap it in html. 
-## start here
